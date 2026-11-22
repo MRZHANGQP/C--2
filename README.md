@@ -46,6 +46,7 @@ git rev-parse HEAD
 git show --stat HEAD -- .agent-sessions/
 ```
 
-## AI 使用与开发过程（你来写）
+## AI 使用与开发过程
 
-声明是否使用 AI；如使用，说明工具、帮助范围、哪些建议未采用、如何验证结果，并说明 `.agent-sessions/bundles/` 中的归档位置。未使用则明确声明并提供可核对的开发记录；记录不完整时如实说明原因。
+- 使用工具：DeepSeek Harness 中的 AI 编程助手（DeepSeek 模型）。
+- 使用范围：辅助完成 Q1 的 Inventory、DispatchPolicy、Scheduler、Trace 和 app 输入函数；修复 Q4 的库存事务一致性问题；起草 Q5 的 docs/README.md 与 docs/DESIGN.md。Q2/Q3 主要用于代码和结构检查。
